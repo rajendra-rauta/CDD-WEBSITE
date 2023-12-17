@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+:root{
+    --bg-color:#081b29;
+    --second-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+
+body{
+    background: var(--bg-color);
+    color:var(--text-color);
+}
+.navbar{
+    height: 10rem;
+    width: 100%;
+  
+}
+.nav-pannel{
+    
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+    
+}
+.nav-pannel img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-pannel a:hover{
+
+   color: white;
+   transition-duration: 0.10s;
+    transition: ease-in-out;
+    font-size: 3.5rem;
+}
+.welcome{
+    font-size: 7rem;
+    margin-left: 50rem;
+margin-top: 8rem;
+}
+.welcome2{
+    font-size: 6rem;
+    margin-left: 11rem;
+
+}
+.welcome:hover{
+
+    color: var(--main-color);
+    transition-duration: 0.10s;
+     transition: ease-in-out;
+     cursor: pointer;
+ }
+ .welcome2:hover{
+    color: var(--main-color);
+    transition-duration: 0.10s;
+     transition: ease-in-out;
+     cursor: pointer;
+ }
+
+ .heroimg{
+    height: 40rem;
+    width: 80rem;
+    margin-left: 30rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+padding: 1rem;
+ }
+
+
+
+
+/* this section for media quary  */
+
+ @media screen and (max-width: 576px) {
+    
+    .nav-pannel{
+        font-size: 1rem;
+    }
+
+   .navbar{
+    width: 80%;
+    height: 2rem;
+
+   }
+   .navbar a{
+    display: none;
+   }
+ 
+.welcome{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+.welcome2{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.heroimg{
+    height: 30rem;
+    width: 30rem;
+    margin-left: 1rem;
+ }
+
+.nav-pannel img{
+display: flex;
+text-align: left;
+ }
+    }
+
+
+
+
+    /* about section  */
+
+
+
+    .about{
+        margin-top: 70rem;
+     
+        font-size: 3rem;
+    }
+    .about h1{
+        text-align: center;
+        background-color: var(--main-color);
+        color: black;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .about-para{
+        font-size: 2rem;
+        margin-left: 8rem;
+        width: 50%;
+        margin-top: 2rem;
+    }
+.about img{
+    margin-left: 90rem;
+    height: 40rem;
+    width: 40rem;
+    margin-top: -70rem;
+    border-radius: 50%;
+}
